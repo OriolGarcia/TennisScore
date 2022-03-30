@@ -1,0 +1,23 @@
+﻿<Page x:Class="TennisScore.PageInit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TennisScore"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageInit">
+
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets\images.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label Content="Nombre Participantes" HorizontalAlignment="Center" Margin="111,32,111,172"/>
+        <TextBox HorizontalAlignment="Left" x:Name="NombreJ1" Margin="256,79,0,0"   TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="NombreJ2"  Margin="256,114,0,0"   TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Jugador 1:" HorizontalAlignment="Left" Margin="163,75,0,0" VerticalAlignment="Top" Foreground="Azure"/>
+        <Label Content="Jugador 2:" HorizontalAlignment="Left" Margin="166,110,0,0" VerticalAlignment="Top" Foreground="Azure"/>
+        <Button Content="Siguiente" HorizontalAlignment="Left" Margin="371,175,0,0" VerticalAlignment="Top" Height="22"  Width="99" Click="Button_Click"/>
+
+    </Grid>
+</Page>

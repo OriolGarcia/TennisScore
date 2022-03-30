@@ -1,0 +1,22 @@
+﻿<Page x:Class="TennisScore.TheWinnerIs"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TennisScore"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TheWinnerIs">
+
+
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets\images.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label Content="Nombre Participantes" HorizontalAlignment="Center" Margin="111,32,111,172"/>
+        <Button Content="Siguiente" HorizontalAlignment="Left" Margin="579,351,0,0" VerticalAlignment="Top" Height="22"  Width="99" Click="Button_Click"/>
+        
+        <TextBlock HorizontalAlignment="Center" Margin="0,93,0,0" Text="THE WINNER IS" FontSize="60" Foreground="Yellow" x:Name="winner" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="227" Width="801"/>
+
+    </Grid>
+</Page>
